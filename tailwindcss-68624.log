@@ -1,0 +1,62 @@
+2025-09-30T22:20:15.178043Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2025-09-30T22:20:15.178088Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "/Users/zachmcnair/repos/win/main", pattern: "**/*", negated: false }
+2025-09-30T22:20:15.178134Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2025-09-30T22:20:15.178140Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "/Users/zachmcnair/repos/win/main" }
+2025-09-30T22:20:15.178906Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:15.179202Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/next.config.js"
+2025-09-30T22:20:15.179275Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/next-env.d.ts"
+2025-09-30T22:20:15.179288Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/tailwind.config.ts"
+2025-09-30T22:20:15.179311Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/public"
+2025-09-30T22:20:15.179352Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/public/Logo.svg"
+2025-09-30T22:20:15.179378Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/package.json"
+2025-09-30T22:20:15.179390Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/tsconfig.json"
+2025-09-30T22:20:15.179423Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/postcss.config.js"
+2025-09-30T22:20:15.179493Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src"
+2025-09-30T22:20:15.179577Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/app"
+2025-09-30T22:20:15.179612Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/app/layout.tsx"
+2025-09-30T22:20:15.179626Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/app/page.tsx"
+2025-09-30T22:20:15.179638Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/app/globals.css"
+2025-09-30T22:20:15.179664Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/components"
+2025-09-30T22:20:15.179706Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:15.179713Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:15.179717Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:15.179720Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 9 file(s)
+2025-09-30T22:20:15.179954Z  INFO tailwindcss_oxide::scanner: Reading "/Users/zachmcnair/repos/win/main/next.config.js"
+2025-09-30T22:20:15.179965Z  INFO tailwindcss_oxide::scanner: Reading "/Users/zachmcnair/repos/win/main/postcss.config.js"
+2025-09-30T22:20:15.179979Z  INFO tailwindcss_oxide::scanner: Reading "/Users/zachmcnair/repos/win/main/tailwind.config.ts"
+2025-09-30T22:20:15.179954Z  INFO tailwindcss_oxide::scanner: Reading "/Users/zachmcnair/repos/win/main/package.json"
+2025-09-30T22:20:15.180004Z  INFO tailwindcss_oxide::scanner: Reading "/Users/zachmcnair/repos/win/main/src/app/page.tsx"
+2025-09-30T22:20:15.179989Z  INFO tailwindcss_oxide::scanner: Reading "/Users/zachmcnair/repos/win/main/src/app/layout.tsx"
+2025-09-30T22:20:15.179970Z  INFO tailwindcss_oxide::scanner: Reading "/Users/zachmcnair/repos/win/main/tsconfig.json"
+2025-09-30T22:20:15.180254Z  INFO tailwindcss_oxide::scanner: Reading "/Users/zachmcnair/repos/win/main/next-env.d.ts"
+2025-09-30T22:20:15.180256Z  INFO tailwindcss_oxide::scanner: Reading "/Users/zachmcnair/repos/win/main/public/Logo.svg"
+2025-09-30T22:20:15.180324Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:15.180334Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:15.180352Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:15.180772Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:15.180779Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:15.180783Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:15.180786Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-09-30T22:20:15.180813Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "/Users/zachmcnair/repos/win/main/src/app/globals.css"
+2025-09-30T22:20:15.180819Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:15.180824Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:15.180828Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:15.180892Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:15.180897Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:15.180988Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:15.181071Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:15.181076Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:15.181385Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/public"
+2025-09-30T22:20:15.181482Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src"
+2025-09-30T22:20:15.181511Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/app"
+2025-09-30T22:20:15.181557Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/components"
+2025-09-30T22:20:15.181583Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:15.181712Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:15.181754Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:15.181760Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:15.182066Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/public"
+2025-09-30T22:20:15.182167Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src"
+2025-09-30T22:20:15.182199Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/app"
+2025-09-30T22:20:15.182242Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/components"
+2025-09-30T22:20:15.182267Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:15.182649Z  INFO get_globs: tailwindcss_oxide::scanner: exit

@@ -5,6 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://win-games.vercel.app'), // Update this with your actual domain
   title: "$WIN — Games you win",
   description: "Games you win",
   icons: {

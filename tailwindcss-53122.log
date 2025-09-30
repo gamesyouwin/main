@@ -141,3 +141,59 @@
 2025-09-30T21:55:55.818671Z  INFO get_files: tailwindcss_oxide::scanner: exit
 2025-09-30T21:55:55.818792Z  INFO get_globs: tailwindcss_oxide::scanner: enter
 2025-09-30T21:55:55.818819Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:30.402736Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:30.403663Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/public"
+2025-09-30T22:20:30.403819Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src"
+2025-09-30T22:20:30.403857Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/app"
+2025-09-30T22:20:30.403884Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/app/layout.tsx"
+2025-09-30T22:20:30.403925Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/components"
+2025-09-30T22:20:30.403961Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:30.403967Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:30.403971Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:30.403974Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-09-30T22:20:30.403994Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "/Users/zachmcnair/repos/win/main/src/app/layout.tsx"
+2025-09-30T22:20:30.403999Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:30.404002Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:30.404005Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:30.404129Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:30.404144Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:30.404222Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:30.404369Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:30.404373Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:30.404632Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/public"
+2025-09-30T22:20:30.404717Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src"
+2025-09-30T22:20:30.404742Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/app"
+2025-09-30T22:20:30.404781Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/components"
+2025-09-30T22:20:30.404803Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:30.404858Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:30.404904Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:30.404910Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:34.344218Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:34.344621Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/vercel.json"
+2025-09-30T22:20:34.344729Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/public"
+2025-09-30T22:20:34.344847Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src"
+2025-09-30T22:20:34.344879Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/app"
+2025-09-30T22:20:34.344901Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/app/layout.tsx"
+2025-09-30T22:20:34.344940Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/components"
+2025-09-30T22:20:34.344970Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:34.344975Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:34.344979Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:34.344981Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 2 file(s)
+2025-09-30T22:20:34.345018Z  INFO tailwindcss_oxide::scanner: Reading "/Users/zachmcnair/repos/win/main/vercel.json"
+2025-09-30T22:20:34.345063Z  INFO tailwindcss_oxide::scanner: Reading "/Users/zachmcnair/repos/win/main/src/app/layout.tsx"
+2025-09-30T22:20:34.345121Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:34.345135Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:34.345140Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:34.345254Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:34.345266Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:34.345345Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:34.345448Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:34.345453Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:34.345769Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/public"
+2025-09-30T22:20:34.345866Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src"
+2025-09-30T22:20:34.345896Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/app"
+2025-09-30T22:20:34.345939Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/zachmcnair/repos/win/main/src/components"
+2025-09-30T22:20:34.345965Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:34.346037Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-09-30T22:20:34.346079Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-09-30T22:20:34.346084Z  INFO get_globs: tailwindcss_oxide::scanner: exit
